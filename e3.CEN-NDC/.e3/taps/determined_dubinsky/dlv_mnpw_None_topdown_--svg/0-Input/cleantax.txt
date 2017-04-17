@@ -1,0 +1,14 @@
+taxonomy CEN CEN
+(USA Midwest Northeast South West)
+
+taxonomy NDC NDC
+(USA Midwest Northeast Southeast Southwest West)
+
+articulation
+[CEN.West disjoint NDC.Northeast]
+[CEN.Midwest equals NDC.Midwest]
+[CEN.USA equals NDC.USA]
+[CEN.South includes NDC.Southeast]
+[CEN.West includes NDC.West]
+[CEN.Northeast is_included_in NDC.Northeast]
+[CEN.West overlaps NDC.Southwest]
